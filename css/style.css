@@ -3,7 +3,45 @@
 .lg-rg{margin-top:0px;}
 hr{margin-top:-20px;}
 .slideshow{margin-top:25px;}
+#container_2{margin-bottom:50px;}
 .np{margin-bottom:35px;}
+
+img{
+border-radius:10px;
+}
+section{
+ -webkit-transition: all 1s ease;
+ -o-transition: all 1s ease;
+ -moz-transition: all 1s ease;
+ -ms-transition: all 1s ease;
+ transition: all 1s ease;
+}
+
+section:hover{
+border:2px solid yellow;
+border-radius:10%;
+-webkit-filter: grayscale(100%);
+}
+
+.navbarclass{
+  margin-top: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.navbarclass:hover {
+  text-align:center;
+  width:50px;
+  margin-top: -10px;
+  border:1px solid yellow;
+  box-shadow:10px 10px 20px 20px skyblue inset;
+}
+
+
+aside{font-family:gothic; text-align:center;}
 #background{background-color:#D9DEDD;}
 #container_1{position:static;}
 #container_2{background-color:#EDDFE2; margin-top:30px;}
